@@ -1,0 +1,452 @@
+[
+  {
+    "id": 1,
+    "sku": "SKU-0001",
+    "name": "Cordless Drill",
+    "description": "High-quality cordless drill ideal for tools use.",
+    "category": "tools",
+    "price": 17.99,
+    "inStock": true
+  },
+  {
+    "id": 2,
+    "sku": "SKU-0002",
+    "name": "Hammer",
+    "description": "High-quality hammer ideal for tools use.",
+    "category": "tools",
+    "price": 486.84,
+    "inStock": true
+  },
+  {
+    "id": 3,
+    "sku": "SKU-0003",
+    "name": "Screwdriver Set",
+    "description": "High-quality screwdriver set ideal for tools use.",
+    "category": "tools",
+    "price": 259.09,
+    "inStock": true
+  },
+  {
+    "id": 4,
+    "sku": "SKU-0004",
+    "name": "Adjustable Wrench",
+    "description": "High-quality adjustable wrench ideal for tools use.",
+    "category": "tools",
+    "price": 120.93,
+    "inStock": true
+  },
+  {
+    "id": 5,
+    "sku": "SKU-0005",
+    "name": "Measuring Tape",
+    "description": "High-quality measuring tape ideal for tools use.",
+    "category": "tools",
+    "price": 390.81,
+    "inStock": true
+  },
+  {
+    "id": 6,
+    "sku": "SKU-0006",
+    "name": "Circular Saw",
+    "description": "High-quality circular saw ideal for tools use.",
+    "category": "tools",
+    "price": 198.6,
+    "inStock": false
+  },
+  {
+    "id": 7,
+    "sku": "SKU-0007",
+    "name": "Power Sander",
+    "description": "High-quality power sander ideal for tools use.",
+    "category": "tools",
+    "price": 61.43,
+    "inStock": false
+  },
+  {
+    "id": 8,
+    "sku": "SKU-0008",
+    "name": "Pliers",
+    "description": "High-quality pliers ideal for tools use.",
+    "category": "tools",
+    "price": 445.66,
+    "inStock": true
+  },
+  {
+    "id": 9,
+    "sku": "SKU-0009",
+    "name": "Socket Set",
+    "description": "High-quality socket set ideal for tools use.",
+    "category": "tools",
+    "price": 285.94,
+    "inStock": false
+  },
+  {
+    "id": 10,
+    "sku": "SKU-0010",
+    "name": "Utility Knife",
+    "description": "High-quality utility knife ideal for tools use.",
+    "category": "tools",
+    "price": 418.19,
+    "inStock": false
+  },
+  {
+    "id": 11,
+    "sku": "SKU-0011",
+    "name": "Wireless Mouse",
+    "description": "High-quality wireless mouse ideal for electronics use.",
+    "category": "electronics",
+    "price": 318.82,
+    "inStock": true
+  },
+  {
+    "id": 12,
+    "sku": "SKU-0012",
+    "name": "Mechanical Keyboard",
+    "description": "High-quality mechanical keyboard ideal for electronics use.",
+    "category": "electronics",
+    "price": 428.57,
+    "inStock": true
+  },
+  {
+    "id": 13,
+    "sku": "SKU-0013",
+    "name": "27-inch Monitor",
+    "description": "High-quality 27-inch monitor ideal for electronics use.",
+    "category": "electronics",
+    "price": 328.14,
+    "inStock": false
+  },
+  {
+    "id": 14,
+    "sku": "SKU-0014",
+    "name": "Bluetooth Speaker",
+    "description": "High-quality bluetooth speaker ideal for electronics use.",
+    "category": "electronics",
+    "price": 347.44,
+    "inStock": false
+  },
+  {
+    "id": 15,
+    "sku": "SKU-0015",
+    "name": "Smartphone Charger",
+    "description": "High-quality smartphone charger ideal for electronics use.",
+    "category": "electronics",
+    "price": 99.85,
+    "inStock": true
+  },
+  {
+    "id": 16,
+    "sku": "SKU-0016",
+    "name": "External Hard Drive",
+    "description": "High-quality external hard drive ideal for electronics use.",
+    "category": "electronics",
+    "price": 260.39,
+    "inStock": false
+  },
+  {
+    "id": 17,
+    "sku": "SKU-0017",
+    "name": "Noise Cancelling Headphones",
+    "description": "High-quality noise cancelling headphones ideal for electronics use.",
+    "category": "electronics",
+    "price": 208.38,
+    "inStock": true
+  },
+  {
+    "id": 18,
+    "sku": "SKU-0018",
+    "name": "USB-C Hub",
+    "description": "High-quality usb-c hub ideal for electronics use.",
+    "category": "electronics",
+    "price": 25.57,
+    "inStock": true
+  },
+  {
+    "id": 19,
+    "sku": "SKU-0019",
+    "name": "Webcam",
+    "description": "High-quality webcam ideal for electronics use.",
+    "category": "electronics",
+    "price": 83.4,
+    "inStock": true
+  },
+  {
+    "id": 20,
+    "sku": "SKU-0020",
+    "name": "Smartwatch",
+    "description": "High-quality smartwatch ideal for electronics use.",
+    "category": "electronics",
+    "price": 141.23,
+    "inStock": false
+  },
+  {
+    "id": 21,
+    "sku": "SKU-0021",
+    "name": "Stainless Steel Pan",
+    "description": "High-quality stainless steel pan ideal for kitchen use.",
+    "category": "kitchen",
+    "price": 400.54,
+    "inStock": false
+  },
+  {
+    "id": 22,
+    "sku": "SKU-0022",
+    "name": "Chef Knife",
+    "description": "High-quality chef knife ideal for kitchen use.",
+    "category": "kitchen",
+    "price": 232.63,
+    "inStock": false
+  },
+  {
+    "id": 23,
+    "sku": "SKU-0023",
+    "name": "Electric Kettle",
+    "description": "High-quality electric kettle ideal for kitchen use.",
+    "category": "kitchen",
+    "price": 393.88,
+    "inStock": true
+  },
+  {
+    "id": 24,
+    "sku": "SKU-0024",
+    "name": "Microwave Oven",
+    "description": "High-quality microwave oven ideal for kitchen use.",
+    "category": "kitchen",
+    "price": 166.44,
+    "inStock": true
+  },
+  {
+    "id": 25,
+    "sku": "SKU-0025",
+    "name": "Coffee Maker",
+    "description": "High-quality coffee maker ideal for kitchen use.",
+    "category": "kitchen",
+    "price": 156.03,
+    "inStock": true
+  },
+  {
+    "id": 26,
+    "sku": "SKU-0026",
+    "name": "Toaster",
+    "description": "High-quality toaster ideal for kitchen use.",
+    "category": "kitchen",
+    "price": 441.16,
+    "inStock": true
+  },
+  {
+    "id": 27,
+    "sku": "SKU-0027",
+    "name": "Blender",
+    "description": "High-quality blender ideal for kitchen use.",
+    "category": "kitchen",
+    "price": 16.95,
+    "inStock": false
+  },
+  {
+    "id": 28,
+    "sku": "SKU-0028",
+    "name": "Cutting Board",
+    "description": "High-quality cutting board ideal for kitchen use.",
+    "category": "kitchen",
+    "price": 170.64,
+    "inStock": true
+  },
+  {
+    "id": 29,
+    "sku": "SKU-0029",
+    "name": "Pressure Cooker",
+    "description": "High-quality pressure cooker ideal for kitchen use.",
+    "category": "kitchen",
+    "price": 279.62,
+    "inStock": false
+  },
+  {
+    "id": 30,
+    "sku": "SKU-0030",
+    "name": "Dish Rack",
+    "description": "High-quality dish rack ideal for kitchen use.",
+    "category": "kitchen",
+    "price": 70.81,
+    "inStock": true
+  },
+  {
+    "id": 31,
+    "sku": "SKU-0031",
+    "name": "Garden Hose",
+    "description": "High-quality garden hose ideal for garden use.",
+    "category": "garden",
+    "price": 90.06,
+    "inStock": true
+  },
+  {
+    "id": 32,
+    "sku": "SKU-0032",
+    "name": "Lawn Mower",
+    "description": "High-quality lawn mower ideal for garden use.",
+    "category": "garden",
+    "price": 397.13,
+    "inStock": true
+  },
+  {
+    "id": 33,
+    "sku": "SKU-0033",
+    "name": "Pruning Shears",
+    "description": "High-quality pruning shears ideal for garden use.",
+    "category": "garden",
+    "price": 492.63,
+    "inStock": false
+  },
+  {
+    "id": 34,
+    "sku": "SKU-0034",
+    "name": "Plant Pot",
+    "description": "High-quality plant pot ideal for garden use.",
+    "category": "garden",
+    "price": 59.26,
+    "inStock": true
+  },
+  {
+    "id": 35,
+    "sku": "SKU-0035",
+    "name": "Watering Can",
+    "description": "High-quality watering can ideal for garden use.",
+    "category": "garden",
+    "price": 205.14,
+    "inStock": true
+  },
+  {
+    "id": 36,
+    "sku": "SKU-0036",
+    "name": "Garden Gloves",
+    "description": "High-quality garden gloves ideal for garden use.",
+    "category": "garden",
+    "price": 285.38,
+    "inStock": true
+  },
+  {
+    "id": 37,
+    "sku": "SKU-0037",
+    "name": "Rake",
+    "description": "High-quality rake ideal for garden use.",
+    "category": "garden",
+    "price": 412.82,
+    "inStock": true
+  },
+  {
+    "id": 38,
+    "sku": "SKU-0038",
+    "name": "Leaf Blower",
+    "description": "High-quality leaf blower ideal for garden use.",
+    "category": "garden",
+    "price": 469.38,
+    "inStock": false
+  },
+  {
+    "id": 39,
+    "sku": "SKU-0039",
+    "name": "Compost Bin",
+    "description": "High-quality compost bin ideal for garden use.",
+    "category": "garden",
+    "price": 362.12,
+    "inStock": false
+  },
+  {
+    "id": 40,
+    "sku": "SKU-0040",
+    "name": "Wheelbarrow",
+    "description": "High-quality wheelbarrow ideal for garden use.",
+    "category": "garden",
+    "price": 292.15,
+    "inStock": true
+  },
+  {
+    "id": 41,
+    "sku": "SKU-0041",
+    "name": "Football",
+    "description": "High-quality football ideal for sports use.",
+    "category": "sports",
+    "price": 100.31,
+    "inStock": true
+  },
+  {
+    "id": 42,
+    "sku": "SKU-0042",
+    "name": "Basketball",
+    "description": "High-quality basketball ideal for sports use.",
+    "category": "sports",
+    "price": 244.39,
+    "inStock": true
+  },
+  {
+    "id": 43,
+    "sku": "SKU-0043",
+    "name": "Yoga Mat",
+    "description": "High-quality yoga mat ideal for sports use.",
+    "category": "sports",
+    "price": 383.04,
+    "inStock": true
+  },
+  {
+    "id": 44,
+    "sku": "SKU-0044",
+    "name": "Tennis Racket",
+    "description": "High-quality tennis racket ideal for sports use.",
+    "category": "sports",
+    "price": 407.16,
+    "inStock": true
+  },
+  {
+    "id": 45,
+    "sku": "SKU-0045",
+    "name": "Skipping Rope",
+    "description": "High-quality skipping rope ideal for sports use.",
+    "category": "sports",
+    "price": 95.44,
+    "inStock": false
+  },
+  {
+    "id": 46,
+    "sku": "SKU-0046",
+    "name": "Cycling Helmet",
+    "description": "High-quality cycling helmet ideal for sports use.",
+    "category": "sports",
+    "price": 443.34,
+    "inStock": false
+  },
+  {
+    "id": 47,
+    "sku": "SKU-0047",
+    "name": "Running Shoes",
+    "description": "High-quality running shoes ideal for sports use.",
+    "category": "sports",
+    "price": 462.62,
+    "inStock": false
+  },
+  {
+    "id": 48,
+    "sku": "SKU-0048",
+    "name": "Boxing Gloves",
+    "description": "High-quality boxing gloves ideal for sports use.",
+    "category": "sports",
+    "price": 70.35,
+    "inStock": true
+  },
+  {
+    "id": 49,
+    "sku": "SKU-0049",
+    "name": "Dumbbell Set",
+    "description": "High-quality dumbbell set ideal for sports use.",
+    "category": "sports",
+    "price": 352.37,
+    "inStock": true
+  },
+  {
+    "id": 50,
+    "sku": "SKU-0050",
+    "name": "Resistance Bands",
+    "description": "High-quality resistance bands ideal for sports use.",
+    "category": "sports",
+    "price": 274.35,
+    "inStock": true
+  }
+]
