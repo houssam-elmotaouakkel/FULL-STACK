@@ -1,12 +1,12 @@
 {
-    "name": "smartinventory", 
-    "version": "1.0.0",
-    "main": "src/server.js",
-    "scripts": {
-        "start": "node src/server.js",
-        "dev": "node src/server.js"
-    },
-    "engines": { 
-        "node": ">=18 <23" 
-    }
+  "name": "smart-inventory-system",
+  "version": "1.0.0",
+  "description": "Serveur Node.js sans framework pour servir des données statiques (products, orders)",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node server.js"
+  },
+  "author": "Houssam El Moutaouakkel",
+  "license": "MIT"
 }
