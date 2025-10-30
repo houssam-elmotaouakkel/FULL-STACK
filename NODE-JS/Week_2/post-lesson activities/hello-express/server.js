@@ -12,13 +12,13 @@ app.get('/api/products', (req, res, next) => {
     res.json(products);
 });
 
-//app.get('/api/products', (req, res) => {
-//    res.json([{id: 1, name: 'Laptop'}, {id: 2, name: 'phone'}])
-//});
-//
-//app.get('/api/products/:id', (req, res) => {
-//    res.json({ message: `produit ${req.params.id}`});
-//});
+app.get('/api/products', (req, res) => {
+    res.json([{id: 1, name: 'Laptop'}, {id: 2, name: 'phone'}])
+});
+
+app.get('/api/products/:id', (req, res) => {
+    res.json({ message: `produit ${req.params.id}`});
+});
 
 app.use((req, res, next) => {
     comsole.log(`[${new Date().toISOString()}] ${req.method} ${req.url}`);
