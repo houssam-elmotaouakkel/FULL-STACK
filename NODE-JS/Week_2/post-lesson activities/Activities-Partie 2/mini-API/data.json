@@ -1,0 +1,26 @@
+{
+  "resources": [
+    {
+      "id": 1,
+      "title": "Resource 1"
+    },
+    {
+      "id": 2,
+      "title": "Resource 2",
+      "updatedAt": "2025-11-05T16:45:01.258Z"
+    },
+    {
+      "id": 3,
+      "title": "Resource 3"
+    },
+    {
+      "id": 4,
+      "title": "Resource 4"
+    },
+    {
+      "id": 5,
+      "title": "Resource 5 updated",
+      "updatedAt": "2025-11-05T17:19:59.189Z"
+    }
+  ]
+}
