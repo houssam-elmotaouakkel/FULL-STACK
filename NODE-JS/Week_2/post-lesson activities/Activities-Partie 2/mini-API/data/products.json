@@ -1,0 +1,64 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "name": "Marteau",
+      "price": 15.99,
+      "category": "tools"
+    },
+    {
+      "id": 2,
+      "name": "Tournevis",
+      "price": 8.50,
+      "category": "tools"
+    },
+    {
+      "id": 3,
+      "name": "Ordinateur Portable",
+      "price": 899.99,
+      "category": "electronics"
+    },
+    {
+      "id": 4,
+      "name": "Smartphone",
+      "price": 499.99,
+      "category": "electronics"
+    },
+    {
+      "id": 5,
+      "name": "Livre JavaScript",
+      "price": 29.99,
+      "category": "books"
+    },
+    {
+      "id": 6,
+      "name": "Chaise de Bureau",
+      "price": 149.99,
+      "category": "furniture"
+    },
+    {
+      "id": 7,
+      "name": "Clé USB 64GB",
+      "price": 12.99,
+      "category": "electronics"
+    },
+    {
+      "id": 8,
+      "name": "Scie Circulaire",
+      "price": 89.99,
+      "category": "tools"
+    },
+    {
+      "id": 9,
+      "name": "Table Basse",
+      "price": 199.99,
+      "category": "furniture"
+    },
+    {
+      "id": 10,
+      "name": "Roman Policier",
+      "price": 14.99,
+      "category": "books"
+    }
+  ]
+}
