@@ -3,8 +3,6 @@ const dataService = require('../services/dataService');
 
 const getProducts = (req, res, next) => {
   try {
-    console.log('product API est appelé');
-    console.log('query params:', req.query);
     
     const filters = {
       category: req.query.category,
@@ -22,7 +20,6 @@ const getProducts = (req, res, next) => {
       timestamp: new Date().toISOString()
     };
     
-    console.log(`${products.length} produits retournés`);
     res.status(200).json(response);
     
   } catch (error) {
@@ -34,7 +31,6 @@ const getProducts = (req, res, next) => {
 
 const getCategories = (req, res, next) => {
   try {
-    console.log('categories API est appelé');
     
     const categories = dataService.getCategories();
     
