@@ -1,0 +1,59 @@
+[
+  {
+    "id": 1,
+    "title": "Apprendre Express.js",
+    "completed": false,
+    "priority": "high",
+    "dueDate": "2025-11-05",
+    "createdAt": "2025-10-31T10:00:00.000Z",
+    "updatedAt": "2025-11-12T02:17:10.405Z"
+  },
+  {
+    "id": 2,
+    "title": "Créer le mini-projet TODO",
+    "completed": true,
+    "priority": "medium",
+    "dueDate": null,
+    "createdAt": "2025-10-30T14:30:00.000Z",
+    "updatedAt": "2025-10-31T09:15:00.000Z"
+  },
+  {
+    "id": 3,
+    "title": "Réviser les middlewares",
+    "completed": false,
+    "priority": "low",
+    "dueDate": "2025-11-10",
+    "createdAt": "2025-10-29T16:45:00.000Z",
+    "updatedAt": "2025-11-12T10:22:28.516Z"
+  },
+  {
+    "id": 4,
+    "title": "devenir full-stak DEV",
+    "completed": false,
+    "priority": "high",
+    "dueDate": "2026-01-30",
+    "createdAt": "2025-09-15T16:45:00.000Z",
+    "updatedAt": "2025-09-15T16:45:00.000Z"
+  },
+  {
+    "id": 5,
+    "title": "bonus mini projet",
+    "completed": false,
+    "priority": "high",
+    "dueDate": "2025-11-20"
+  },
+  {
+    "id": 6,
+    "title": "test de date",
+    "completed": false,
+    "priority": "low",
+    "dueDate": "2025-11-30"
+  },
+  {
+    "id": 7,
+    "title": "test de priority",
+    "completed": false,
+    "priority": "medium",
+    "dueDate": "2025-11-10"
+  }
+]
