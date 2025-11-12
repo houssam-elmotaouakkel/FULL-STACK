@@ -18,7 +18,7 @@ Service backend CRUD pour des TODOs utilisant un fichier JSON comme stockage (sr
 - npm (fourni avec Node)
 
 ## Installation
-1. Cloner le repo ou copier les fichiers dans un dossier local.
+1. Cloner le repo <git clone https://github.com/houssam-elmotaouakkel/FULL-STACK> ou copier les fichiers dans un dossier local.
 2. Se placer dans le dossier du projet :
    - PowerShell (Windows) :
      cd "c:\Users\HOUSS\Downloads\FULL-STACK\NODE-JS\Week_2\Mini-project\TODO-Tracker-API"
