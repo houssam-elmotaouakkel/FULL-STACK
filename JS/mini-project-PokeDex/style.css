@@ -70,6 +70,8 @@
       border-radius: 20px; padding: 18px 18px 20px;
       box-shadow: var(--shadow);
       backdrop-filter: blur(10px) saturate(110%);
+      -webkit-backdrop-filter: blur(10px);
+      backdrop-filter: blur(10px);
     }
 
     /* Search row */
@@ -115,13 +117,14 @@
     #card{min-height: 260px; border-radius: 20px; padding: 16px 16px 18px;
       background: linear-gradient(180deg, var(--card), var(--card-deep));
       border: 1px solid rgba(255,255,255,.08); box-shadow: var(--shadow);
-      position: relative; overflow:hidden; backdrop-filter: blur(8px);
-      transform-style: preserve-3d; perspective: 700px;
+      position: relative; overflow:hidden; backdrop-filter: blur(8px);-webkit-backdrop-filter: blur(10px);
+      backdrop-filter: blur(10px);transform-style: preserve-3d; perspective: 700px;
     }
     #card:hover{transform: translateZ(0) rotateX(.5deg) rotateY(.5deg)}
     .card-ring{position:absolute;inset:-2px;border-radius:22px;pointer-events:none;
-      background: var(--ring-anim); mask: linear-gradient(#000 0 0) content-box, linear-gradient(#000 0 0);
+      background: var(--ring-anim); 
       -webkit-mask: linear-gradient(#000 0 0) content-box, linear-gradient(#000 0 0);
+      mask: linear-gradient(#000 0 0) content-box, linear-gradient(#000 0 0);
       padding:2px; -webkit-mask-composite: xor; mask-composite: exclude; filter: blur(.6px) saturate(120%);
       animation: spin 12s linear infinite;
     }
@@ -152,7 +155,7 @@
 
     /* History */
     #history{background:linear-gradient(180deg, var(--card), var(--card-deep)); border: 1px solid rgba(255,255,255,.08);
-      border-radius: 20px; padding: 16px; box-shadow: var(--shadow); backdrop-filter: blur(8px)}
+      border-radius: 20px; padding: 16px; box-shadow: var(--shadow); backdrop-filter: blur(8px);-webkit-backdrop-filter: blur(10px);backdrop-filter: blur(10px);}
     #history h3{margin:6px 0 10px;font-size:16px;color:var(--muted)}
     .hist-list{list-style:none;margin:0;padding:0;display:flex;flex-direction:column;gap:10px}
     .hist-item{display:flex;justify-content:space-between;align-items:center;gap:10px;background:linear-gradient(180deg,#0f1637,#0f173e);
