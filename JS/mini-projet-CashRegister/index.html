@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Caisse enregistreuse</title>
+  <link rel="stylesheet" href="style.css" />
+    <script defer src="Script.js"></script>
+</head>
+<body>
+  <header>
+    <h1>Caisse enregistreuse</h1>
+    <p class="sub"><strong>PROMOTION 🎉</strong> une réduction de <strong>10 %</strong> sur vos achats si vous dépasser 400.</p>
+  </header>
+
+  <main class="container">
+    <section class="card">
+      <h2>Catalogue</h2>
+      <div id="catalog" class="catalog" aria-live="polite"></div>
+      <input id="searchInput" class="card" width="device-width" type="" min="0" step="0.01" placeholder="Recherher une produit:" />
+    </section>
+
+
+    <section class="card stack">
+      <div>
+        <h2>Panier</h2>
+        <ul id="cartList" class="cart-list"></ul>
+        <div class="totals">
+          <div class="row"><span class="label">Sous-total</span><span id="subtotal">0.00</span></div>
+          <div class="row"><span class="label">Réduction (10% si &gt; 400)</span><span id="discount">0.00</span></div>
+          <div class="row total"><span>Total</span><span id="total">0.00</span></div>
+        </div>
+      </div>
+
+      <div>
+        <h2>Paiement</h2>
+        <div class="pay">
+          <input id="cashInput" type="number" min="0" step="0.01" placeholder="Montant donné par le client" />
+          <button id="payBtn" class="btn">Payer</button>
+        </div>
+        <div id="message" class="msg" role="status" aria-live="polite" hidden></div>
+      </div>
+    </section>
+  </main>
+</body>
+</html>
