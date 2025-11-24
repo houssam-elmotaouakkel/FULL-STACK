@@ -1,0 +1,104 @@
+/* RESET GLOBAL */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Inter", sans-serif;
+}
+
+body {
+  background-color: #f0f0f0;
+}
+
+/* THEMES */
+.app.light {
+  background-color: #f0f0f0;
+  color: #222;
+}
+
+.app.dark {
+  background-color: #1b1b1b;
+  color: #e5e5e5;
+}
+
+/* CONTAINER */
+.app {
+  min-height: 100vh;
+  padding: 50px 200px;
+  transition: background 0.3s ease, color 0.3s ease;
+}
+
+/* HEADER */
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 25px;
+}
+
+/* BUTTONS */
+button {
+  background-color: #4c8bf5;
+  border: none;
+  padding: 8px 14px;
+  border-radius: 6px;
+  color: white;
+  cursor: pointer;
+  font-size: 14px;
+  transition: background 0.2s ease;
+}
+
+button:hover {
+  background-color: #3b72c9;
+}
+
+/* SEARCH INPUT */
+.search {
+  width: 100%;
+  padding: 10px 14px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  margin-bottom: 20px;
+  margin-top: 20px;
+  font-size: 15px;
+}
+
+/* LISTE D’UTILISATEURS */
+.user-list {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  list-style: none;
+}
+
+/* CARTE UTILISATEUR */
+.user-item {
+  padding: 18px;
+  border-radius: 12px;
+  background: white;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.1s ease;
+}
+
+.app.dark .user-item {
+  background: #2a2a2a;
+  box-shadow: 0 2px 10px rgba(255, 255, 255, 0.05);
+}
+
+.user-item:hover {
+  transform: scale(1.01);
+}
+
+/* HEADER DE CHAQUE CARTE */
+.user-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+/* DETAILS */
+.user-details p {
+  margin-bottom: 6px;
+  opacity: 0.9;
+}
